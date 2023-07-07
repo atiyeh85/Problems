@@ -24,8 +24,12 @@ internal class Program
 
 
         //Majority Element
-        int[] nums = new int[] { 2,2,0,0,1,1,0,2,2 };
-        var res = MajorityElement.Majority_Element(nums);
+        //int[] nums = new int[] { 2,2,0,0,1,1,0,2,2 };
+        //var res = MajorityElement.Majority_Element(nums);
 
+
+        //Majority ElementII
+        int[] nums = new int[] { 1, 2 };
+        var res = MajorityElement_II.Majority_Element(nums);
     }
 }
