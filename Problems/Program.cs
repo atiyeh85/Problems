@@ -29,7 +29,12 @@ internal class Program
 
 
         //Majority ElementII
-        int[] nums = new int[] { 1, 2 };
-        var res = MajorityElement_II.Majority_Element(nums);
+        //int[] nums = new int[] { 1, 2 };
+        //var res = MajorityElement_II.Majority_Element(nums);
+
+
+        //Candy
+        int[] nums = new int[] { 1, 3, 2, 2, 1 };
+        var res = Candy._Candy(nums);
     }
 }
