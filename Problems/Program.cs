@@ -34,7 +34,13 @@ internal class Program
 
 
         //Candy
-        int[] nums = new int[] { 1, 3, 2, 2, 1 };
-        var res = Candy._Candy(nums);
+        //int[] nums = new int[] { 1, 3, 2, 2, 1 };
+        //var res = Candy._Candy(nums);
+
+
+
+        // 121. Best Time to Buy and Sell Stock
+        int[] nums = new int[] { 7,1,5,3,6,4 };
+        var res = BestTimeto_BuyandSellStock.MaxProfit(nums);
     }
 }
